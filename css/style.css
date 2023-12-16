@@ -482,3 +482,48 @@ h3.my-profession {
     display: block;
 }
 
+/* Contact me section */
+.contact-title {
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+.contact .contact-info-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact .contact-info-item .icon {
+    display: inline-block;
+}
+
+.contact .contact-info-item .icon i {
+    font-size: 38px;
+    color: var(--skin-color);
+}
+
+.contact .contact-info-item h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+
+.contact .contact-info-item p {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+    font-weight: 400;
+}
+
+.contact .contact-info-item a {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+    font-weight: 400;
+}
